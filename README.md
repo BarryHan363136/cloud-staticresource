@@ -1,0 +1,2 @@
+# cloud-staticresource
+cloud-staticresource
