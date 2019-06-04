@@ -1,0 +1,107 @@
+* {
+	font-family: 'BMWTypeRegular';
+}
+
+html {
+	background-color: #80A0A0;
+	color: #FFFFFF;
+}
+
+body {
+	background-color: #80A0A0;
+	margin: 0px;
+	height: 100%;
+}
+
+#carSimulatorConsole hr {
+	line-height: 2px;
+	color: white;
+}
+
+#SimulatorPosition option, #SimulatorDestination option{
+	display : block;
+}
+
+div#consoleForTesting {
+	padding: 2px;
+	margin-top: 5px;
+	width: 1246px;
+	background-color: black;
+}
+
+div#consoleForTesting * {
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+div#consoleForTesting a,div#carSimulatorConsole a {
+	color: #FC3C00;
+	text-decoration: none;
+}
+
+div#consoleForTesting a:focus,div#carSimulatorConsole a:focus {
+	color: #80B0DC;
+}
+
+.halfline,.halfline div {
+	line-height: 20px;
+	height: 30px;
+}
+
+.halfline select {
+	display: inline;
+}
+
+.halfline  option {
+	display: block;
+}
+
+#carSimulatorConsole {
+	position: absolute;
+	left: 1040px;
+	top: 0px;
+	width: 200px;
+	height: 410px;
+	background-color: black;
+	font-size: 14px;
+	padding: 5px;
+}
+
+#carSimulatorConsole * {
+	font-size: 14px;
+}
+
+#carSimulatorCoordinate {
+	width: 185px;
+	line-height: 14px;
+	height: 22px;
+	font-size: 13px;
+}
+
+#OSM {
+	position: absolute;
+	left: 574px;
+	top: 0px;
+	display: none;
+	z-index: 5000;
+}
+
+#OSM * {
+	font-size: 10px;
+}
+
+#OSM-Map {
+	width: 460px;
+	height: 420px;
+}
+
+#OSM-PositionMode {
+	background-color: black;
+	position: absolute;
+	right: 0px;
+	z-index: 1000;
+}
+
+#OSM-PositionMode.dest {
+	background-color: red;
+}
